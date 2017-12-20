@@ -1,0 +1,26 @@
+{
+  "name": "systemjs-yui-plugin",
+  "version": "1.0.0",
+  "description": "SystemJS adpater which uses YUI Loader to load YUI components and register them as CommonJS modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory/artifactory/api/npm/orion-npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash/projects/TS/repos/shell/browse"
+  },
+  "keywords": [
+    "SystemJS",
+    "YUI"
+  ],
+  "author": "Orion Health",
+  "license": "ISC",
+  "devDependencies": {
+    "systemjs": "^0.20.19",
+    "yui": "^3.18.1"
+  }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    <script src="../node_modules/yui/yui/yui.js"></script>
+    <script>
+        System.config({ 'YUI_CONFIG_LOCATION': './yui_config.js' });
+        // We need to give SystemJs a hint on how to export our YUI thing
+        System.config({ 'module_config': { export: 'MyModule' } });
+        System.import('module!../index.js').then(function (module) { module.sayHello(); });
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
