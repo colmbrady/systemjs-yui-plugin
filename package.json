@@ -18,7 +18,7 @@
     "YUI"
   ],
   "author": "Orion Health",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "systemjs": "^0.20.19",
     "yui": "^3.18.1"
